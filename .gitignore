@@ -1,0 +1,88 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# R
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+*.egg
+*.venv/
+
+# C++
+*.o
+*.out
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.swo
+*.swp
+*.log
+*.bak
+*.dSYM/
+
+# zsh
+.zcompdump-*
+.zsh_history
+
+# Other common directories
+.tmp/
+*.log
+*.bak
+
+# Package management
+*.jar
+*.war
+*.ear
+*.tar
+*.zip
+*.rar
+
+# Other
+*.pid
+*.lock
+*.DS_Store
+*.suo
+*.ntvs_analysis.dat
+*.dbmdl
+*.dbproj.schemaview
+*.pfx
+*.publishsettings
