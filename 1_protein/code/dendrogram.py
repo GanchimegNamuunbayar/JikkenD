@@ -1,6 +1,7 @@
 import os
 import glob
 import pandas as pd
+<<<<<<< HEAD
 import seaborn as sns
 import matplotlib.pyplot as plt
 from scipy.cluster import hierarchy
@@ -22,10 +23,13 @@ def save_hierarchical_clustering(df, output_dir, species_name):
     plt.savefig(dendrogram_path)
     plt.close()
 
+<<<<<<< HEAD
 
 
 
 
+=======
+>>>>>>> ee6c7ce (Initial commit)
 # CSVファイルが保存されているディレクトリ
 csv_dir = "csv"
 csv_files = glob.glob(os.path.join(csv_dir, "*.csv"))
@@ -34,8 +38,17 @@ csv_files = glob.glob(os.path.join(csv_dir, "*.csv"))
 for csv_file in csv_files:
     species_name = os.path.basename(csv_file).split(".")[0]
     df = pd.read_csv(csv_file)
+<<<<<<< HEAD
     output_dir = os.path.join("plots", species_name)
     os.makedirs(output_dir, exist_ok=True)
     
     # 階層的クラスタリングのデンドログラムを保存
     save_hierarchical_clustering(df, output_dir, species_name)
+=======
+    output_dir = os.path.join("output", species_name)
+    os.makedirs(output_dir, exist_ok=True)
+    
+    # 保存
+    save_hierarchical_clustering(df, output_dir, species_name)
+
+>>>>>>> ee6c7ce (Initial commit)
